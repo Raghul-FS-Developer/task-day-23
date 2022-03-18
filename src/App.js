@@ -11,18 +11,7 @@ import Register from "./components/register";
 import Login from "./components/login";
 import Charts from "./components/charts";
 function App() {
-  const EarningAnalytics = [
-    {
-      title: "Earnings (monthly)",
-      amount: "$40,000",
-      icon: "fas fa-calendar fa-2x text-gray-300",
-    },
-    {
-      title: "Earnings (Annual)",
-      amount: "$480,000",
-      icon: "fas fa-dollar-sign fa-2x text-gray-300",
-    },
-  ];
+ 
   return (
     <Router>
       {/* <!-- Page Wrapper --> */}
